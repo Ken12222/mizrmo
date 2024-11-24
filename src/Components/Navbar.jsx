@@ -7,10 +7,14 @@ export default function Navbar() {
       <div className="navbar w-4/5 mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <div
+              tabIndex={0}
+              role="button"
+              className="btn btn-ghost lg:hidden p-0"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
+                className="h-8 w-8"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -45,7 +49,11 @@ export default function Navbar() {
             </ul>
           </div>
           <Link to="/" className="text-xl">
-            <img className="w-56" src={mizrmologo} alt="brand_logo" />
+            <img
+              className="sm:w-40 md:w-20:"
+              src={mizrmologo}
+              alt="brand_logo"
+            />
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -53,7 +61,7 @@ export default function Navbar() {
             <li>
               <Link
                 to="/"
-                className="text-white hover:bg-yellow-400 ease-in-out duration-700"
+                className="text-white hover:text-yellow-400 ease-in-out duration-700"
               >
                 Home
               </Link>
@@ -61,7 +69,7 @@ export default function Navbar() {
             <li>
               <Link
                 to="/faq"
-                className="text-white hover:bg-yellow-400 ease-in-out duration-700"
+                className="text-white  hover:text-yellow-400 ease-in-out duration-700"
               >
                 FAQ
               </Link>
@@ -69,7 +77,7 @@ export default function Navbar() {
             <li>
               <Link
                 to="/contact_us"
-                className="text-white hover:bg-yellow-400 ease-in-out duration-700"
+                className="text-white hover:text-yellow-400 ease-in-out duration-700"
               >
                 Contact Us
               </Link>
@@ -77,7 +85,7 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn rounded-full bg-yellow-400 border-0 text-blue-800">
+          <a className="btn rounded-full bg-yellow-400 hover:text-yellow-400 hover:bg-blue-400 border-0  text-blue-800">
             Sign Up
           </a>
         </div>
