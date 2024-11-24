@@ -10,7 +10,7 @@ export default function Navbar() {
             <div
               tabIndex={0}
               role="button"
-              className="btn btn-ghost lg:hidden p-0"
+              className="btn btn-ghost lg:hidden p-0 pr-5"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
