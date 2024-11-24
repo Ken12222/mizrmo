@@ -18,7 +18,7 @@ export default function Hero() {
             className="m-3 outline-0 w-full"
             type="text"
           />
-          <button className="btn border-0 bg-yellow-300 rounded-full">
+          <button className="btn border-0 bg-yellow-300 hover:bg-blue-800 ease-in-out duration-700 hover:text-yellow-400 rounded-full">
             Join Waitlist
           </button>
         </form>

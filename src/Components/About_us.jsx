@@ -38,15 +38,17 @@ export default function About_US() {
           Getting Started with Mizrmo is Easy
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
-          <h3 className="text-4xl text-left text-blue-800">For Riders</h3>
           <div>
+            <h3 className="text-4xl text-left text-blue-800">For Riders</h3>
             <ol className="flex flex-col gap-2">
               <li className="flex flex-col-2 gap-2 my-5">
                 <p className="bg-blue-800 w-fit h-fit py-2 px-4 rounded-full text-white">
                   1
                 </p>
                 <p>
-                  <span>Sign Up and Verify Your Identity</span>
+                  <span>
+                    <strong>Sign Up and Verify Your Identity</strong>
+                  </span>
                   <br />
                   Create your account and upload your Ghana Card for
                   verification.
@@ -58,7 +60,9 @@ export default function About_US() {
                   2
                 </p>
                 <p>
-                  <span>Find a Ride</span>
+                  <span>
+                    <strong>Find a Ride</strong>
+                  </span>
                   <br />
                   Search for drivers heading your way and book your seat.
                 </p>
@@ -69,7 +73,9 @@ export default function About_US() {
                   3
                 </p>
                 <p>
-                  <span>Pay Securely</span>
+                  <span>
+                    <strong>Pay Securely</strong>
+                  </span>
                   <br />
                   Make payments easily through your bank account or mobile money
                   wallet.
@@ -80,7 +86,9 @@ export default function About_US() {
                   4
                 </p>
                 <p>
-                  <span>Enjoy Your Journey</span>
+                  <span>
+                    <strong>Enjoy Your Journey</strong>
+                  </span>
                   <br />
                   Connect with your driver, hop in, and enjoy a safe, affordable
                   ride.
@@ -90,15 +98,17 @@ export default function About_US() {
           </div>
 
           {/* For Drivers */}
-          <h3 className="text-4xl text-left text-blue-800">For Drivers</h3>
           <div>
+            <h3 className="text-4xl text-left text-blue-800">For Drivers</h3>
             <ol className="flex flex-col gap-2">
               <li className="flex flex-col-2 gap-2 my-5">
                 <p className="bg-blue-800 w-fit h-fit py-2 px-4 rounded-full text-white">
                   1
                 </p>
                 <p>
-                  <span>Join as a Driver</span>
+                  <span>
+                    <strong>Join as a Driver</strong>
+                  </span>
                   <br />
                   Sign up, verify your ID, and upload your vehicle details.
                 </p>
@@ -109,7 +119,9 @@ export default function About_US() {
                   2
                 </p>
                 <p>
-                  <span>List Your Seats</span>
+                  <span>
+                    <strong>List Your Seats</strong>
+                  </span>
                   <br />
                   Share your route and advertise your available seats.
                 </p>
@@ -120,7 +132,9 @@ export default function About_US() {
                   3
                 </p>
                 <p>
-                  <span>Accept Bookings</span>
+                  <span>
+                    <strong>Accept Bookings</strong>
+                  </span>
                   <br />
                   Get notified when a rider books with you.
                 </p>
@@ -130,14 +144,16 @@ export default function About_US() {
                   4
                 </p>
                 <p>
-                  <span>Earn Seamlessly</span>
+                  <span>
+                    <strong>Earn Seamlessly</strong>
+                  </span>
                   <br />
                   Receive payments directly to your account or wallet.
                 </p>
               </li>
             </ol>
           </div>
-          <a className="bg-yellow-400 py-2 px-8 text-center rounded-full text-xl w-full mx-auto">
+          <a className="bg-yellow-400 py-2 px-8 md:col-span-2 lg:md:col-span-2 md:w-2/4 text-center rounded-full text-xl w-full mx-auto">
             Start your journey today
           </a>
           {/* finish ui for larger displays */}

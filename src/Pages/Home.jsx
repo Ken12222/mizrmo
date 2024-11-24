@@ -1,5 +1,6 @@
 import About_US from "../Components/About_us";
 import Hero from "../Components/Hero";
+import Why_Us from "../Components/Why_Us";
 
 export default function Home() {
   return (
@@ -9,6 +10,9 @@ export default function Home() {
       </section>
       <section>
         <About_US />
+      </section>
+      <section className="bg-gray-200 my-8">
+        <Why_Us />
       </section>
     </main>
   );

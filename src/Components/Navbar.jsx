@@ -61,7 +61,7 @@ export default function Navbar() {
             <li>
               <Link
                 to="/"
-                className="text-white hover:text-yellow-400 ease-in-out duration-700"
+                className="text-white text-xl hover:text-yellow-400 hover:bg-transparent ease-in-out duration-700"
               >
                 Home
               </Link>
@@ -69,7 +69,7 @@ export default function Navbar() {
             <li>
               <Link
                 to="/faq"
-                className="text-white  hover:text-yellow-400 ease-in-out duration-700"
+                className="text-white text-xl  hover:text-yellow-400 hover:bg-transparent ease-in-out duration-700"
               >
                 FAQ
               </Link>
@@ -77,7 +77,7 @@ export default function Navbar() {
             <li>
               <Link
                 to="/contact_us"
-                className="text-white hover:text-yellow-400 ease-in-out duration-700"
+                className="text-white text-xl hover:text-yellow-400 hover:bg-transparent ease-in-out duration-700"
               >
                 Contact Us
               </Link>
