@@ -1,6 +1,6 @@
 export default function Join_waitlist() {
   return (
-    <div className="my-5 bg-white rounded-full md:w-2/4 lg:w-2/4 mx-auto border-2 border-blue-800">
+    <div className="my-5 bg-white rounded-full md:w-3/4 lg:w-3/4 mx-auto border-2 border-blue-800">
       <form className="p-1 flex">
         <input
           placeholder="Enter Your Email"

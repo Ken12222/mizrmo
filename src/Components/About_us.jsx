@@ -1,6 +1,59 @@
 import aboutUs from "../../images/about_us.jpg";
 
 export default function About_US() {
+  const data = [
+    {
+      id: "1",
+      role: "rider",
+      heading: "Sign Up and Verify Your Identity",
+      content:
+        "Create your account and upload your Ghana Card for verification.",
+    },
+    {
+      id: "2",
+      role: "rider",
+      heading: "Find a Ride",
+      content: "Search for drivers heading your way and book your seat.",
+    },
+    {
+      id: "3",
+      role: "rider",
+      heading: "Pay Securely",
+      content:
+        "Make payments easily through your bank account or mobile money wallet.",
+    },
+    {
+      id: "4",
+      role: "rider",
+      heading: "Enjoy Your Journey",
+      content:
+        "Connect with your driver, hop in, and enjoy a safe, affordable ride.",
+    },
+    {
+      id: "1",
+      role: "driver",
+      heading: "Join as a Driver",
+      content: "Sign up, verify your ID, and upload your vehicle details.",
+    },
+    {
+      id: "2",
+      role: "driver",
+      heading: "List Your Seats",
+      content: "Share your route and advertise your available seats.",
+    },
+    {
+      id: "3",
+      role: "driver",
+      heading: "Accept Bookings",
+      content: "Get notified when a rider books with you.",
+    },
+    {
+      id: "4",
+      role: "driver",
+      heading: "Earn Seamlessly",
+      content: "Receive payments directly to your account or wallet.",
+    },
+  ];
   return (
     <div>
       <h1 className="py-8 text-5xl text-center text-blue-800">About Us</h1>
@@ -41,59 +94,22 @@ export default function About_US() {
           <div>
             <h3 className="text-4xl text-left text-blue-800">For Riders</h3>
             <ol className="flex flex-col gap-2">
-              <li className="flex flex-col-2 gap-2 my-5">
-                <p className="bg-blue-800 w-fit h-fit py-2 px-4 rounded-full text-white">
-                  1
-                </p>
-                <p>
-                  <span>
-                    <strong>Sign Up and Verify Your Identity</strong>
-                  </span>
-                  <br />
-                  Create your account and upload your Ghana Card for
-                  verification.
-                </p>
-              </li>
-
-              <li className="flex flex-col-2 gap-2 my-5">
-                <p className="bg-blue-800 w-fit h-fit py-2 px-4 rounded-full text-white">
-                  2
-                </p>
-                <p>
-                  <span>
-                    <strong>Find a Ride</strong>
-                  </span>
-                  <br />
-                  Search for drivers heading your way and book your seat.
-                </p>
-              </li>
-
-              <li className="flex flex-col-2 gap-2 my-5">
-                <p className="bg-blue-800 w-fit h-fit py-2 px-4 rounded-full text-white">
-                  3
-                </p>
-                <p>
-                  <span>
-                    <strong>Pay Securely</strong>
-                  </span>
-                  <br />
-                  Make payments easily through your bank account or mobile money
-                  wallet.
-                </p>
-              </li>
-              <li className="flex flex-col-2 gap-2 my-5">
-                <p className="bg-blue-800 w-fit h-fit py-2 px-4 rounded-full text-white">
-                  4
-                </p>
-                <p>
-                  <span>
-                    <strong>Enjoy Your Journey</strong>
-                  </span>
-                  <br />
-                  Connect with your driver, hop in, and enjoy a safe, affordable
-                  ride.
-                </p>
-              </li>
+              {data
+                .filter((data) => data.role === "rider")
+                .map((data) => (
+                  <li key={data.id} className="flex flex-col-2 gap-2 my-5">
+                    <p className="bg-blue-800 w-fit h-fit py-2 px-4 rounded-full text-white">
+                      {data.id}
+                    </p>
+                    <p>
+                      <span>
+                        <strong>{data.heading}</strong>
+                      </span>
+                      <br />
+                      {data.content}
+                    </p>
+                  </li>
+                ))}
             </ol>
           </div>
 
@@ -101,56 +117,22 @@ export default function About_US() {
           <div>
             <h3 className="text-4xl text-left text-blue-800">For Drivers</h3>
             <ol className="flex flex-col gap-2">
-              <li className="flex flex-col-2 gap-2 my-5">
-                <p className="bg-blue-800 w-fit h-fit py-2 px-4 rounded-full text-white">
-                  1
-                </p>
-                <p>
-                  <span>
-                    <strong>Join as a Driver</strong>
-                  </span>
-                  <br />
-                  Sign up, verify your ID, and upload your vehicle details.
-                </p>
-              </li>
-
-              <li className="flex flex-col-2 gap-2 my-5">
-                <p className="bg-blue-800 w-fit h-fit py-2 px-4 rounded-full text-white">
-                  2
-                </p>
-                <p>
-                  <span>
-                    <strong>List Your Seats</strong>
-                  </span>
-                  <br />
-                  Share your route and advertise your available seats.
-                </p>
-              </li>
-
-              <li className="flex flex-col-2 gap-2 my-5">
-                <p className="bg-blue-800 w-fit h-fit py-2 px-4 rounded-full text-white">
-                  3
-                </p>
-                <p>
-                  <span>
-                    <strong>Accept Bookings</strong>
-                  </span>
-                  <br />
-                  Get notified when a rider books with you.
-                </p>
-              </li>
-              <li className="flex flex-col-2 gap-2 my-5">
-                <p className="bg-blue-800 w-fit h-fit py-2 px-4 rounded-full text-white">
-                  4
-                </p>
-                <p>
-                  <span>
-                    <strong>Earn Seamlessly</strong>
-                  </span>
-                  <br />
-                  Receive payments directly to your account or wallet.
-                </p>
-              </li>
+              {data
+                .filter((data) => data.role === "driver")
+                .map((data) => (
+                  <li key={data.id} className="flex flex-col-2 gap-2 my-5">
+                    <p className="bg-blue-800 w-fit h-fit py-2 px-4 rounded-full text-white">
+                      {data.id}
+                    </p>
+                    <p>
+                      <span>
+                        <strong>{data.heading}</strong>
+                      </span>
+                      <br />
+                      {data.content}
+                    </p>
+                  </li>
+                ))}
             </ol>
           </div>
           <a className="bg-yellow-400 py-2 px-8 md:col-span-2 lg:md:col-span-2 md:w-2/4 text-center rounded-full text-xl w-full mx-auto">
