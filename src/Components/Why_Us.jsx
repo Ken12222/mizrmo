@@ -10,7 +10,7 @@ export default function Why_Us() {
       <h1 className="pb-2 text-5xl text-center text-blue-800">
         Why Choose Mizrmo?
       </h1>
-      <p className="pb-5">
+      <p className="pb-5 text-xl">
         Mizrmo is designed to provide value for every user. Here's why thousands
         are ready to join us:
       </p>
