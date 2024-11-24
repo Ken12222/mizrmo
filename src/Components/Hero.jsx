@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="w-4/5 mx-auto flex flex-col my-8">
+    <div className="w-4/5 mx-auto flex flex-col my-12">
       <div className="align-center">
         <h1 className="py-5 text-5xl text-white text-center">
           Share the Ride, Share the Cost, Share the Fun
