@@ -33,9 +33,7 @@ export default function Home() {
           <strong>Learn more about our corporate partnership</strong>
         </a>
       </div>
-      <footer className="w-full bg-blue-800">
-        <Footer />
-      </footer>
+      <Footer />
     </main>
   );
 }

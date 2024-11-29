@@ -35,6 +35,13 @@ export default function Why_Us() {
       heading: "Community Impact",
       content: "Build connections with people in your city or beyond.",
     },
+    {
+      id: "6",
+      image: "../../images/people.svg",
+      heading: "Seamless User Experience",
+      content:
+        "Our user-friendly app makes finding and booking a ride quick and hassle-free. Drivers can list rides in minutes, and riders can book with a few taps.",
+    },
   ];
   return (
     <div className="w-4/5 mx-auto py-16 text-center">
