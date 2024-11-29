@@ -55,22 +55,22 @@ export default function Footer() {
           </a>
           <div className="flex gap-4 pt-4">
             <Link to="">
-              <img className="w-12" src={x} alt="x_logo" />
+              <img className="w-8" src={x} alt="x_logo" />
             </Link>
             <Link to="">
-              <img className="w-12" src={fb} alt="fb_logo" />
+              <img className="w-8" src={fb} alt="fb_logo" />
             </Link>
             <Link to="">
-              <img className="w-12" src={lin} alt="lkdin_logo" />
+              <img className="w-8" src={lin} alt="lkdin_logo" />
             </Link>
             <Link to="">
-              <img className="w-12" src={ig} alt="ig_logo" />
+              <img className="w-8" src={ig} alt="ig_logo" />
             </Link>
             <Link to="">
-              <img className="w-12" src={tiktok} alt="tk_logo" />
+              <img className="w-8" src={tiktok} alt="tk_logo" />
             </Link>
             <Link to="">
-              <img className="w-12" src={snap} alt="snp_logo" />
+              <img className="w-8" src={snap} alt="snp_logo" />
             </Link>
           </div>
         </div>

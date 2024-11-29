@@ -11,9 +11,11 @@ export default function Home() {
       <section className="bg-blue-800 w-full flex justify-center">
         <Hero
           mainText="Share the Ride, Share the Cost, Share the Fun"
-          subText="          Join Mizrmo today and transform your daily commutes and travels.  
+          subText="Join Mizrmo today and transform your daily commutes and travels.  
           Connect with trusted drivers and riders, save on costs, and contribute
           to building a sustainable community."
+          mainTextStyle="py-5 text-5xl text-white text-center"
+          subTextStyle="text-white text-xl  md:w-4/5 text-center mx-auto"
         />
       </section>
       <section>

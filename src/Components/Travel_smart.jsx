@@ -1,30 +1,37 @@
+import {
+  IoCarSportOutline,
+  IoLeafOutline,
+  IoPulseOutline,
+  IoBagOutline,
+} from "react-icons/io5";
+
 export default function Travel_smart() {
   //Edit this content
   const data = [
     {
       id: "1",
-      image: "../../images/leaf.svg",
+      image: <IoLeafOutline size={50} className="text-blue-800" />,
       heading: "Cut Carbon Emissions",
       content:
         "Track CO₂ reduction through detailed reports and demonstrate your commitment to ESG goals.",
     },
     {
       id: "2",
-      image: "../../images/car.svg",
+      image: <IoCarSportOutline size={50} className="text-blue-800" />,
       heading: "Save on parking",
       content:
         "No need for cash—secure payments happen via bank accounts or mobile money wallets.",
     },
     {
       id: "3",
-      image: "../../images/people.svg",
+      image: <IoPulseOutline size={50} className="text-blue-800" />,
       heading: "Boost Wellness",
       content:
         "Help employees save on commute costs and reduce travel-related stress",
     },
     {
       id: "4",
-      image: "../../images/briefcase.svg",
+      image: <IoBagOutline size={50} className="text-blue-800" />,
       heading: "Build bonds",
       content:
         "Enable your employees to spend more time with each other and build lasting relationships.",
@@ -43,7 +50,7 @@ export default function Travel_smart() {
       <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-4 ">
         {data.map((data) => (
           <div className="p-5 bg-white rounded-lg" key={data.id}>
-            <img src={data.image} alt="" />
+            {data.image}
             <p className="text-left text-blue-800 text-xl py-2">
               <strong>{data.heading}</strong>
             </p>
