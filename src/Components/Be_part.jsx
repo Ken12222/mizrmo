@@ -20,7 +20,7 @@ export default function Be_part() {
   return (
     <div>
       <div className="w-4/5 mx-auto">
-        <h1 className="pb-2 text-5xl text-center text-blue-800">
+        <h1 className="pb-2 text-4xl md:text-5xl lg:md:text-5xl text-center text-blue-800">
           Be Part of the Revolution. Join the Mizrmo Waitlist Today.
         </h1>
         <p className="pb-5 text-sm text-center">

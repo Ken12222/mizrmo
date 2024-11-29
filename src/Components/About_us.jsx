@@ -56,7 +56,9 @@ export default function About_US() {
   ];
   return (
     <div>
-      <h1 className="py-8 text-5xl text-center text-blue-800">About Us</h1>
+      <h1 className="py-8 text-4xl md:text-5xl lg:md:text-5xl text-center text-blue-800">
+        About Us
+      </h1>
       <div className="w-4/5 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
         <div className=" w-full my-auto text-xl min-h-80 space-y-2">
           <p className="xl">
@@ -87,12 +89,14 @@ export default function About_US() {
         />
       </div>
       <div className="w-4/5 mx-auto">
-        <h1 className="py-8 text-5xl text-center text-blue-800">
+        <h1 className="py-8 text-4xl  md:text-5xl lg:text-5xl text-center text-blue-800">
           Getting Started with Mizrmo is Easy
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
           <div>
-            <h3 className="text-4xl text-left text-blue-800">For Riders</h3>
+            <h3 className="text-2xl md:text-4xl lg:text-4xl text-left text-blue-800">
+              For Riders
+            </h3>
             <ol className="flex flex-col gap-2">
               {data
                 .filter((data) => data.role === "rider")
@@ -115,7 +119,9 @@ export default function About_US() {
 
           {/* For Drivers */}
           <div>
-            <h3 className="text-4xl text-left text-blue-800">For Drivers</h3>
+            <h3 className="text-2xl md:text-4xl lg:text-4xl text-left text-blue-800">
+              For Drivers
+            </h3>
             <ol className="flex flex-col gap-2">
               {data
                 .filter((data) => data.role === "driver")

@@ -9,7 +9,12 @@ export default function Home() {
   return (
     <main>
       <section className="bg-blue-800 w-full flex justify-center">
-        <Hero />
+        <Hero
+          mainText="Share the Ride, Share the Cost, Share the Fun"
+          subText="          Join Mizrmo today and transform your daily commutes and travels.  
+          Connect with trusted drivers and riders, save on costs, and contribute
+          to building a sustainable community."
+        />
       </section>
       <section>
         <About_US />
@@ -25,10 +30,10 @@ export default function Home() {
       </section>
       <div className="w-full flex justify-center pb-8">
         <a className="sm:text-sm md:text-xl lg:text-xl bg-yellow-400 py-2 px-8 md:col-span-2 lg:md:col-span-2 md:w-2/4 text-center rounded-full w-4/5 mx-auto">
-          Learn more about our corporate partnership
+          <strong>Learn more about our corporate partnership</strong>
         </a>
       </div>
-      <footer className="bg-blue-800">
+      <footer className="w-full bg-blue-800">
         <Footer />
       </footer>
     </main>
