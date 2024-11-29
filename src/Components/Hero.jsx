@@ -7,7 +7,7 @@ export default function Hero({
   subTextStyle,
 }) {
   return (
-    <div className="w-4/5 mx-auto flex flex-col my-12">
+    <div className="w-4/5 mx-auto my-auto flex flex-col my-12">
       <div className="align-center">
         <h1 className={mainTextStyle}>{mainText}</h1>
         <p className={subTextStyle}>{subText}</p>
