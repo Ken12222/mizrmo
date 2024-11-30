@@ -9,14 +9,17 @@ export default function Home() {
   return (
     <main>
       <section className="bg-blue-800 w-full md:h-screen lg:h-screen flex justify-center">
-        <Hero
-          mainText="Share the Ride, Share the Cost, Share the Fun"
-          subText="Join Mizrmo today and transform your daily commutes and travels.  
+        <div className="w-4/5 mx-auto my-auto flex flex-col">
+          <Hero
+            mainText="Share the Ride, Share the Cost, Share the Fun"
+            subText="Join Mizrmo today and transform your daily commutes and travels.  
           Connect with trusted drivers and riders, save on costs, and contribute
           to building a sustainable community."
-          mainTextStyle="py-5 text-5xl text-white text-center"
-          subTextStyle="text-white text-xl  md:w-4/5 text-center mx-auto"
-        />
+            mainTextStyle="py-5 text-5xl text-white text-center"
+            subTextStyle="text-white text-xl  md:w-4/5 text-center mx-auto"
+            showJoinWaitlist={true}
+          />
+        </div>
       </section>
       <section>
         <About_US />

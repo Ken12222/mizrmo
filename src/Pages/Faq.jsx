@@ -92,6 +92,7 @@ export default function FAQ() {
             subText="Find answers to the most common questions about our services, policies, and processes. Whether you're new to our platform or looking for specific details, we've got you covered."
             mainTextStyle="py-5 text-5xl text-white text-center"
             subTextStyle="text-white text-xl  md:w-3/5 text-center mx-auto"
+            showJoinWaitlist={true}
           />
         </div>
       </div>

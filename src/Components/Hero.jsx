@@ -5,16 +5,17 @@ export default function Hero({
   subText,
   mainTextStyle,
   subTextStyle,
+  showJoinWaitlist,
 }) {
   return (
-    <div className="w-4/5 mx-auto my-auto flex flex-col my-12">
-      <div className="align-center">
+    <>
+      <div>
         <h1 className={mainTextStyle}>{mainText}</h1>
         <p className={subTextStyle}>{subText}</p>
       </div>
       <div className="w-full md:w-4/5 lg:w-4/5 mx-auto">
-        <Join_waitlist />
+        {showJoinWaitlist && <Join_waitlist />}
       </div>
-    </div>
+    </>
   );
 }

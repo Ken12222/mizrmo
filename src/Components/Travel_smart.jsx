@@ -40,7 +40,7 @@ export default function Travel_smart() {
 
   return (
     <div className="w-4/5 mx-auto py-16 text-center">
-      <h1 className="pb-2 text-4xl md:text-5xl lg:md:text-5xl text-center text-blue-800">
+      <h1 className="pb-2 text-2xl md:text-3xl lg:md:text-3xl text-center text-blue-800">
         Smarter Travel, Stronger Connections
       </h1>
       <p className="pb-5 text-xl">

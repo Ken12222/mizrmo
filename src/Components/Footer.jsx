@@ -17,7 +17,7 @@ export default function Footer() {
           <p className="text-yellow-400 text-xl">Let's Go Together</p>
         </div>
         <div className="pt-0 pb-4 md:pt-8 lg:pt-8">
-          <h1 className="text-white text-3xl">Quick Links</h1>
+          <h1 className="text-white text-2xl">Quick Links</h1>
           <nav>
             <li className="list-none py-2">
               <Link
@@ -46,7 +46,7 @@ export default function Footer() {
           </nav>
         </div>
         <div className="flex flex-col gap-2 pt-0 pb-4 md:pt-8 lg:pt-8">
-          <h1 className="text-white text-3xl">Contact Us</h1>
+          <h1 className="text-white text-2xl">Contact Us</h1>
           <a href="" className="text-white">
             Email: info@mizrmo.com
           </a>
@@ -75,7 +75,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="md:col-span-3 lg:col-span-3">
-          <p className="text-white text-2xl text-center py-4">
+          <p className="text-white text-xl text-center py-6">
             © {currentYear} Mizrmo Technologies. All rights reserved.
           </p>
         </div>

@@ -20,10 +20,10 @@ export default function Be_part() {
   return (
     <div>
       <div className="w-4/5 mx-auto">
-        <h1 className="pb-2 text-4xl md:text-5xl lg:md:text-5xl text-center text-blue-800">
+        <h1 className="pb-2 text-2xl md:text-3xl lg:md:text-3xl text-center text-blue-800">
           Be Part of the Revolution. Join the Mizrmo Waitlist Today.
         </h1>
-        <p className="pb-5 text-sm text-center">
+        <p className="w-3/5 mx-auto pb-5 text-sm text-center">
           Don't miss out on the future of mobility. By joining our waitlist,
           you'll get early access to Mizrmo's launch and exclusive perks
           designed just for our early users.
