@@ -14,7 +14,7 @@ export default function Contact_us() {
     message: "",
   });
   return (
-    <>
+    <div>
       <section className="w-full h-screen flex align-middle bg-blue-800">
         <div className="w-4/5 mx-auto grid grid-cols md:grid-cols-2 lg:grid-cols-2 gap-4">
           <div className="my-auto">
@@ -106,7 +106,7 @@ export default function Contact_us() {
                 placeholder="Leave us a message"
               />
             </div>
-            <button className="bg-blue-800 text-white w-full py-1 text-center rounded-full">
+            <button className="bg-blue-800 text-white w-full py-2 text-center rounded-full">
               Send Message
             </button>
           </form>
@@ -115,7 +115,7 @@ export default function Contact_us() {
           <p className="py-8 text-2xl md:text-3xl lg:md:text-3xl text-center text-blue-800">
             Our Location
           </p>
-          <div>
+          <div className="">
             <iframe
               width="100%"
               height="600"
@@ -128,6 +128,6 @@ export default function Contact_us() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
