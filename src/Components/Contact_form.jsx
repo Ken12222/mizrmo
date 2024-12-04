@@ -8,10 +8,12 @@ export default function Contact_form() {
   });
 
   return (
-    <form action="">
+    <form>
       <div className="grid grid-cols py-4">
         <label htmlFor="Name">Name</label>
         <input
+          id="Name"
+          name="user_name"
           className="border-2 p-4 rounded-full outline-0"
           value={contactDetails.name}
           onChange={(e) => {
@@ -25,8 +27,10 @@ export default function Contact_form() {
         />
       </div>
       <div className="grid grid-cols py-4">
-        <label htmlFor="Name">Name</label>
+        <label htmlFor="email">Email</label>
         <input
+          id="email"
+          name="user_email"
           className="border-2 p-4 rounded-full outline-0"
           value={contactDetails.email}
           onChange={(e) => {
@@ -42,6 +46,7 @@ export default function Contact_form() {
       <div className="grid grid-cols py-4">
         <label htmlFor="Message">Message</label>
         <textarea
+          id="Message"
           className="border-2 p-4 rounded-2xl outline-0"
           value={contactDetails.message}
           onChange={(e) => {
@@ -50,8 +55,7 @@ export default function Contact_form() {
               message: e.target.value,
             });
           }}
-          name=""
-          id=""
+          name="message"
           placeholder="Leave us a message"
         />
       </div>

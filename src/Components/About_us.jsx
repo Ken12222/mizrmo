@@ -141,9 +141,9 @@ export default function About_US() {
                 ))}
             </ol>
           </div>
-          <a className="bg-yellow-400 py-2 px-8 md:col-span-2 lg:md:col-span-2 md:w-2/4 text-center rounded-full text-xl w-full mx-auto">
+          <button className="btn hover:bg-blue-800 hover:text-yellow-400 text-blue-800 bg-yellow-400 py-2 px-8 md:col-span-2 lg:md:col-span-2 md:w-2/4 text-center rounded-full text-xl w-full mx-auto">
             Start your journey today
-          </a>
+          </button>
           {/* finish ui for larger displays */}
         </div>
       </div>

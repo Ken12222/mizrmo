@@ -11,7 +11,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
   return (
     <footer className="w-full bg-blue-800">
-      <div className="w-4/5 mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
+      <div className="w-4/5 mx-auto grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-3">
         <div className="pt-8 pb-4 md:pb-8 lg:pb-8">
           <img src={mizrmologo} alt="" />
           <p className="text-yellow-400 text-xl">Let's Go Together</p>
@@ -22,7 +22,7 @@ export default function Footer() {
             <li className="list-none py-2">
               <Link
                 className="text-white hover:text-yellow-400 hover:bg-transparent ease-in-out duration-700"
-                to="/about_us"
+                to="/faq"
               >
                 FAQ
               </Link>
@@ -38,7 +38,8 @@ export default function Footer() {
             <li className="list-none py-2">
               <Link
                 className="text-white hover:text-yellow-400 hover:bg-transparent ease-in-out duration-700"
-                to="/"
+                to="https://docs.google.com/forms/d/e/1FAIpQLSePDrMXqicR3G3j2aya4t6Du_qsZq6sOIrkPZ4DTorX2taV1A/viewform?usp=sf_link"
+                target="blank"
               >
                 Join Waitlist
               </Link>
@@ -50,26 +51,41 @@ export default function Footer() {
           <a href="" className="text-white">
             Email: info@mizrmo.com
           </a>
-          <a href="" className="text-white">
+          <a href="" type="telephone" className="text-white">
             Phone number: +233 24 741 0909
           </a>
           <div className="flex gap-4 pt-4">
-            <Link to="">
+            <Link
+              target="blank"
+              to="https://x.com/ridemizrmo?t=ZmlUuS3ESIrEfrwUqnXllQ&s=09"
+            >
               <img className="w-8" src={x} alt="x_logo" />
             </Link>
-            <Link to="">
+            <Link
+              target="blank"
+              to="https://www.facebook.com/share/1Bxe9PHQ9n/"
+            >
               <img className="w-8" src={fb} alt="fb_logo" />
             </Link>
-            <Link to="">
+            <Link
+              target="blank"
+              to="https://www.linkedin.com/company/mizrmo-technologies/"
+            >
               <img className="w-8" src={lin} alt="lkdin_logo" />
             </Link>
-            <Link to="">
+            <Link target="blank" to="https://www.instagram.com/ridemizrmo/">
               <img className="w-8" src={ig} alt="ig_logo" />
             </Link>
-            <Link to="">
+            <Link
+              target="blank"
+              to="https://www.tiktok.com/@ridemizrmo?_t=8rtKORDv6AB&_r=1"
+            >
               <img className="w-8" src={tiktok} alt="tk_logo" />
             </Link>
-            <Link to="">
+            <Link
+              target="blank"
+              to="https://www.snapchat.com/add/ridemizrmo?share_id=fN3e-BH7zaA&locale=en-GB"
+            >
               <img className="w-8" src={snap} alt="snp_logo" />
             </Link>
           </div>

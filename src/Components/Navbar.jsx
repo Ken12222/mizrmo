@@ -85,9 +85,12 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn rounded-full bg-yellow-400 hover:text-yellow-400 hover:bg-blue-400 border-0  text-blue-800">
-            Sign Up
-          </a>
+          <Link
+            to=""
+            className="btn rounded-full bg-yellow-400 hover:text-yellow-400 hover:bg-blue-400 border-0  text-blue-800"
+          >
+            Join Our Community
+          </Link>
         </div>
       </div>
     </header>
