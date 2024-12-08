@@ -11,7 +11,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
   return (
     <footer className="w-full bg-blue-800">
-      <div className="w-4/5 mx-auto grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-3">
+      <div className="w-4/5 mx-auto grid grid-cols-1 gap-4 md:grid-cols-4 lg:grid-cols-4">
         <div className="pt-8 pb-4 md:pb-8 lg:pb-8">
           <img src={mizrmologo} alt="" />
           <p className="text-yellow-400 text-xl">Let's Go Together</p>
@@ -89,6 +89,15 @@ export default function Footer() {
               <img className="w-8" src={snap} alt="snp_logo" />
             </Link>
           </div>
+        </div>
+
+        <div className="flex flex-col gap-4 pt-8">
+          <Link target="blank" to="/privacy-policy" className="text-white">
+            Privacy Policy
+          </Link>
+          <Link target="blank" to="/termscondition" className="text-white">
+            Term & Conditions
+          </Link>
         </div>
         <div className="md:col-span-3 lg:col-span-3">
           <p className="text-white text-xl text-center py-6">
