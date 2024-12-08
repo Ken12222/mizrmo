@@ -1,13 +1,11 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+// Before
+const path = require("path");
+module.exports = {
+  content: [path.join(__dirname, "src/**/*.{html,js}")],
+};
 
-// https://vite.dev/config/
-export default defineConfig({
-  base: "/",
-  plugins: [react()],
-  server: {
-    open: true, // Automatically open in the
-    host: true, //Preview app on mobile
-    historyApiFallback: true, //handle routuing and
-  },
-});
+// After
+import path from "path";
+export default {
+  content: [path.join(process.cwd(), "src/**/*.{html,js}")],
+};
