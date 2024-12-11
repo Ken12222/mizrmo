@@ -3,7 +3,7 @@ import mizrmologo from "../../images/mizrmo_logo.png";
 
 export default function Navbar() {
   return (
-    <header className=" bg-blue-800 h-1/5 z-50">
+    <header className=" bg-blue-800 h-fit z-50 top-0 right-0 left-0 fixed">
       <div className="navbar w-4/5 mx-auto">
         <div className="navbar-start">
           <div className="dropdown">

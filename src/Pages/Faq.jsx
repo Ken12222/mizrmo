@@ -16,8 +16,13 @@ export default function FAQ() {
     },
     {
       id: "2",
-      question: "How does Mizrmo work? ",
-      ans: "Fix this ken",
+      question: "How does Mizrmo work? - For Riders ",
+      ans: "Sign up, verify your ID, and search for available rides heading your way. Book a seat, prepay securely through cashless methods, and enjoy your journey. ",
+    },
+    {
+      id: "22",
+      question: "How does Mizrmo work? - For Drivers",
+      ans: "Sign up, verify your ID, and list your available seats. Accept bookings from riders, complete the journey and earn money seamlessly via bank or mobile wallet transfers.",
     },
     {
       id: "3",
@@ -47,7 +52,7 @@ export default function FAQ() {
     {
       id: "8",
       question: "How do I sign up to Drive? ",
-      ans: "Ken, fix this",
+      ans: "To become a driver: Sign up on the Mizrmo platform. Verify your identity with a government-issued ID. Add your vehicle details, including your license plate and seating capacity. Once approved, you can start listing your available seats and earning money. Can companies use Mizrmo for their employees? Yes! We love to have companies onboard. Mizrmo offers companies the opportunity to encourage sustainable commuting for their employees. By partnering with us, companies can access detailed CO₂ reduction reports for their staff who indicate their companies name at signup. We anticipate that employees sharing rides will lead to reduced commuting stress, reduce parking demand, and more team bonding times during the rides.  ",
     },
     {
       id: "9",
