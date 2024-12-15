@@ -99,7 +99,7 @@ export default function Footer() {
             Term & Conditions
           </Link>
         </div>
-        <div className="md:col-span-3 lg:col-span-3">
+        <div className="md:col-span-4 lg:col-span-4">
           <p className="text-white text-xl text-center py-6">
             © {currentYear} Mizrmo Technologies. All rights reserved.
           </p>
