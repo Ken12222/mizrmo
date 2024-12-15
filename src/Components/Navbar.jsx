@@ -86,7 +86,8 @@ export default function Navbar() {
         </div>
         <div className="navbar-end">
           <Link
-            to=""
+            to="https://chat.whatsapp.com/KBmXX6bK8KcDcLTJDPbYxM"
+            target="_blank"
             className="btn w-fit text-sm rounded-full bg-yellow-400 hover:text-yellow-400 hover:bg-blue-400 border-0  text-blue-800"
           >
             Join Our Community
