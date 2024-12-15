@@ -8,8 +8,8 @@ import Footer from "../Components/Footer";
 export default function Home() {
   return (
     <main>
-      <section className="bg-blue-800 w-full md:h-screen lg:h-screen flex justify-center">
-        <div className="w-5/6 mx-auto mt-20 my-auto flex flex-col">
+      <section className="bg-blue-800 w-full md:h-screen lg:h-screen flex justify-center items-center">
+        <div className="w-5/6 mx-auto md:mt-0 lg:mt-0  flex  flex-col">
           <Hero
             mainText="Share the Ride, Share the Cost, Share the Fun"
             subText="Join Mizrmo today and transform your daily commutes and travels.  

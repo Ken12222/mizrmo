@@ -9,10 +9,10 @@ import Footer from "../Components/Footer";
 export default function Contact_us() {
   return (
     <div>
-      <section className="w-full h-screen flex align-middle bg-blue-800">
-        <div className="w-5/6 mt-20 mx-auto grid grid-cols md:grid-cols-2 lg:grid-cols-2 gap-2">
+      <section className="w-screen h-screen flex align-middle bg-blue-800">
+        <div className="w-5/6 mt-20 md:my-auto lg:my-auto mx-auto grid grid-cols md:grid-cols-2 lg:grid-cols-2 gap-2">
           <div className="">
-            <div className="mx-auto">
+            <div className="mx-auto my-auto">
               <Hero
                 mainText="Let’s Build the Future of Travel Together"
                 subText="Got questions? Want to learn more about Mizrmo? We’re here to help. "
@@ -30,7 +30,7 @@ export default function Contact_us() {
           />
         </div>
       </section>
-      <div className="w-4/5 mx-auto grid grid-cols md:grid-cols-2 lg:grid-cols-2 gap-4 md:gap-8 lg:gap-8 py-8">
+      <div className="w-5/6 my-auto mx-auto grid grid-cols md:grid-cols-2 lg:grid-cols-2 gap-4 md:gap-8 lg:gap-8 py-8">
         <div className="grid grid-cols">
           <p className="py-8 text-2xl md:text-3xl lg:md:text-3xl text-center text-blue-800">
             Send Us a Message
