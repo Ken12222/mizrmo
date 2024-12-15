@@ -9,34 +9,27 @@ export default function Contact_form() {
   });
 
   const [loading, setLoading] = useState(false);
-  const [submitButtonText, setSubmitButtonText] = useState("Submit");
 
   // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
 
     setLoading(true);
-    setSubmitButtonText(
-      '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Sending...'
-    );
 
     const data = {
       template: "default",
       user_name: "mizrmo",
       email: "ashartey2@gmail.com",
-      subject: contactDetails.subject,
-      message: `${contactDetails.subject}. \n\nNew message from ${contactDetails.name} - ${contactDetails.email}, \n\nMessage: \n${contactDetails.message}`,
+      message: `\n\nNew message from ${contactDetails.name} - ${contactDetails.email}, \nMessage: \n${contactDetails.message}`,
     };
 
     // Send form data to the server using Axios
     axios
-      .post("https://testing-server.ehealthgh.app:2004/send", data)
+      .post("http://mizrmo.ipv64.net:3040/authentication/support", data)
       .then((response) => {
-        console.log(response.data);
         alert("Form submitted successfully!");
       })
       .catch((error) => {
-        console.error(error);
         alert("Failed to send email.");
       })
       .finally(() => {
@@ -82,7 +75,7 @@ export default function Contact_form() {
         />
       </div>
       <div className="grid grid-cols py-4">
-        <label htmlFor="Message">Message</label>
+        <label htmlFor="message">Message</label>
         <textarea
           id="message"
           className="border-2 p-4 rounded-2xl outline-0"
@@ -102,7 +95,7 @@ export default function Contact_form() {
         value="Submit"
         className="bg-blue-800 text-white w-full py-2 text-center rounded-full"
       >
-        Send Message
+        {loading ? <p>sending...</p> : <p>Submit</p>}
       </button>
     </form>
   );
