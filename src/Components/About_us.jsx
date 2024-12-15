@@ -59,7 +59,7 @@ export default function About_US() {
       <h1 className="py-8 text-2xl md:text-3xl lg:md:text-3xl text-center text-blue-800">
         About Us
       </h1>
-      <div className="w-4/5 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+      <div className="w-5/6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
         <div className=" w-full my-auto text-xl min-h-80 space-y-2">
           <p className="xl">
             Mizrmo was born out of a simple observation: every day, countless
@@ -88,7 +88,7 @@ export default function About_US() {
           alt="person_img"
         />
       </div>
-      <div className="w-4/5 mx-auto">
+      <div className="w-5/6 mx-auto">
         <h1 className="py-8 text-2xl  md:text-3xl lg:text-3xl text-center text-blue-800">
           Getting Started with Mizrmo is Easy
         </h1>

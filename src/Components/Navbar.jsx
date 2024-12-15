@@ -3,14 +3,14 @@ import mizrmologo from "../../images/mizrmo_logo.png";
 
 export default function Navbar() {
   return (
-    <header className=" bg-blue-800 h-fit z-50 top-0 right-0 left-0 fixed">
-      <div className="navbar w-4/5 mx-auto">
+    <header className=" bg-blue-800 h-fit z-50 top-0 right-0 left-0 fixed py-2">
+      <div className="navbar w-5/6 flex gap-4 mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
             <div
               tabIndex={0}
               role="button"
-              className="btn btn-ghost lg:hidden p-0 pr-5"
+              className="btn btn-ghost lg:hidden p-0 pr-2"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +87,7 @@ export default function Navbar() {
         <div className="navbar-end">
           <Link
             to=""
-            className="btn rounded-full bg-yellow-400 hover:text-yellow-400 hover:bg-blue-400 border-0  text-blue-800"
+            className="btn w-fit text-sm rounded-full bg-yellow-400 hover:text-yellow-400 hover:bg-blue-400 border-0  text-blue-800"
           >
             Join Our Community
           </Link>

@@ -2,6 +2,7 @@ import { useState } from "react";
 import Hero from "../Components/Hero";
 import { IoChevronDown, IoChevronUp } from "react-icons/io5";
 import Footer from "../Components/Footer";
+import Navbar from "../Components/Navbar";
 
 export default function FAQ() {
   const [openAccordionID, setOpenAccordionID] = useState(null);
@@ -88,7 +89,7 @@ export default function FAQ() {
   return (
     <div>
       <div
-        className="w-full h-full md:h-screen lg:h-screen flex align-middle bg-no-repeat bg-cover bg-center"
+        className="w-full mt-20 md:h-screen lg:h-screen flex align-middle bg-no-repeat bg-cover bg-center"
         style={{ backgroundImage: `url("../../images/faq_img.png")` }}
       >
         <div className="w-full my-auto">

@@ -10,8 +10,8 @@ export default function Contact_us() {
   return (
     <div>
       <section className="w-full h-screen flex align-middle bg-blue-800">
-        <div className="w-4/5 mx-auto grid grid-cols md:grid-cols-2 lg:grid-cols-2 gap-4">
-          <div className="my-auto">
+        <div className="w-5/6 mt-20 mx-auto grid grid-cols md:grid-cols-2 lg:grid-cols-2 gap-2">
+          <div className="">
             <div className="mx-auto">
               <Hero
                 mainText="Let’s Build the Future of Travel Together"

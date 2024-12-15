@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main>
       <section className="bg-blue-800 w-full md:h-screen lg:h-screen flex justify-center">
-        <div className="w-4/5 mx-auto my-auto flex flex-col">
+        <div className="w-5/6 mx-auto mt-20 my-auto flex flex-col">
           <Hero
             mainText="Share the Ride, Share the Cost, Share the Fun"
             subText="Join Mizrmo today and transform your daily commutes and travels.  

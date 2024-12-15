@@ -6,7 +6,7 @@ import {
 
 export default function Contact_portals() {
   return (
-    <div className="grid grid-cols md:grid-cols-3 lg:grid-cols-3 gap-4 py-12">
+    <div className="grid grid-cols md:grid-cols-3 lg:grid-cols-3 gap-4 py-4">
       <span className="flex align-middle">
         <IoMailOutline size="30" className="text-white" />
         <p className="text-sm my-auto text-white px-1 text-center">
