@@ -19,7 +19,7 @@ export default function Contact_form() {
     const data = {
       template: "default",
       user_name: "mizrmo",
-      email: "ashartey2@gmail.com",
+      email: "support@mizrmo.com",
       message: `\n\nNew message from ${contactDetails.name} - ${contactDetails.email}, \nMessage: \n${contactDetails.message}`,
     };
 
@@ -90,13 +90,19 @@ export default function Contact_form() {
           placeholder="Leave us a message"
         />
       </div>
-      <button
-        name="submit"
-        value="Submit"
-        className="bg-blue-800 text-white w-full py-2 text-center rounded-full"
-      >
-        {loading ? <p>sending...</p> : <p>Submit</p>}
-      </button>
+      {loading ? (
+        <button className=" bg-gray-600 text-white w-full py-2 text-center rounded-full">
+          sending...
+        </button>
+      ) : (
+        <button
+          name="submit"
+          value="Submit"
+          className="bg-blue-800 text-white w-full py-2 text-center rounded-full"
+        >
+          Submit
+        </button>
+      )}
     </form>
   );
 }
