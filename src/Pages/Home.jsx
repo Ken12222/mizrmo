@@ -35,7 +35,7 @@ export default function Home() {
       </section>
       <div className="w-full flex justify-center pb-8">
         <button className="btn sm:text-sm md:text-xl lg:text-xl hover:bg-blue-800 hover:text-yellow-400 text-blue-800 bg-yellow-400 py-2 md:col-span-2 lg:md:col-span-2 md:w-2/4 text-center rounded-full w-4/5 mx-auto">
-          Learn more about our corporate partnership
+          Contact Us to Learn more about our corporate partnership
         </button>
       </div>
       <Footer />

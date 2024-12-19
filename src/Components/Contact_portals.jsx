@@ -10,7 +10,7 @@ export default function Contact_portals() {
       <span className="flex justify-center md:justify-start">
         <IoMailOutline size="30" className="text-white" />
         <p className="text-sm my-auto text-white px-1 text-center">
-          info@mizrmo.com
+          support@mizrmo.com
         </p>
       </span>
       <span className="flex justify-center md:justify-start">

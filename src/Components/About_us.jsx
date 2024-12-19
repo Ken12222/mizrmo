@@ -1,4 +1,5 @@
 import aboutUs from "../../images/about_us.jpg";
+import { Link } from "react-router-dom";
 
 export default function About_US() {
   const data = [
@@ -141,10 +142,13 @@ export default function About_US() {
                 ))}
             </ol>
           </div>
-          <button className="btn hover:bg-blue-800 hover:text-yellow-400 text-blue-800 bg-yellow-400 py-2 px-8 md:col-span-2 lg:md:col-span-2 md:w-2/4 text-center rounded-full text-xl w-full mx-auto">
+          <Link
+            to="https://docs.google.com/forms/d/e/1FAIpQLSePDrMXqicR3G3j2aya4t6Du_qsZq6sOIrkPZ4DTorX2taV1A/viewform?usp=sf_link"
+            target="blank"
+            className="btn hover:bg-blue-800 hover:text-yellow-400 text-blue-800 bg-yellow-400 py-2 px-8 md:col-span-2 lg:md:col-span-2 md:w-2/4 text-center rounded-full text-xl w-full mx-auto"
+          >
             Start your journey today
-          </button>
-          {/* finish ui for larger displays */}
+          </Link>
         </div>
       </div>
     </div>
