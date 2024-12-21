@@ -13,7 +13,9 @@ export default function Footer() {
     <footer className="w-full bg-blue-800">
       <div className="w-5/6 mx-auto grid grid-cols-1 gap-4 md:grid-cols-4 lg:grid-cols-4">
         <div className="pt-8 pb-4 md:pb-8 lg:pb-8">
-          <img src={mizrmologo} alt="" />
+          <Link to="/">
+            <img src={mizrmologo} alt="" />
+          </Link>
           <p className="text-yellow-400 text-xl">Let's Go Together</p>
         </div>
         <div className="pt-0 pb-4 md:pt-8 lg:pt-8">
