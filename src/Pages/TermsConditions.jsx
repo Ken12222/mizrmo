@@ -1,4 +1,5 @@
 import Footer from "../Components/Footer";
+import TermsContent from "../Components/TermsContent";
 
 export default function TermsConditions() {
   const data = [
@@ -336,33 +337,9 @@ export default function TermsConditions() {
   ];
   return (
     <>
-      <main className="w-4/5 mx-auto mt-8 md:gap-8 grid grid-cols md:grid-cols-3 lg:grid-cols-3">
-        <div className="border-2 rounded-lg w-fit h-fit p-5">
-          <h4 className="font-bold">Table Of Content</h4>
-          <ol className="py-4">
-            {data.map((data) => (
-              <li key={data.id} className="pb-1">
-                <a className="hover:text-yellow-400" href={"#" + data.article}>
-                  {data.article}
-                </a>
-              </li>
-            ))}
-          </ol>
-        </div>
-        <div className="col-span-2 ">
-          <h4 className="font-bold border-b pb-4">TERMS & CONDITIONS</h4>
-          {data.map((data) => (
-            <div key={data.article}>
-              <h5 className="py-3 pb-2 font-semibold border-b-2">
-                {data.article}
-              </h5>
-              <p className="pb-6 " id={data.article}>
-                {data.subsection}
-              </p>
-            </div>
-          ))}
-        </div>
-      </main>
+      <div>
+        <TermsContent />
+      </div>
       <Footer />
     </>
   );
