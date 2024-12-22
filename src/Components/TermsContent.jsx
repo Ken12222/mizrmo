@@ -5,7 +5,7 @@ export default function TermsContent() {
         <h4 className="font-bold">Table Of Content</h4>
         <ol className="py-4">
           <li>
-            <a href="#General">Subject</a>
+            <a href="#subject">Subject</a>
           </li>
           <li>
             <a href="#definition">Definitions</a>
@@ -401,7 +401,7 @@ export default function TermsContent() {
             3. Registration on the Platform and creation of an Account
           </h1>
 
-          <h2 id="registration-conditions" className="font-bold text-lg my-2">
+          <h2 id="conditions" className="font-bold text-lg my-2">
             3.1. Conditions of registration on the Platform
           </h2>
           <p>
@@ -411,7 +411,7 @@ export default function TermsContent() {
             warrant that you are aged 18 or over.
           </p>
 
-          <h2 id="account-creation" className="font-bold text-lg my-2">
+          <h2 id="creation" className="font-bold text-lg my-2">
             3.2. Creation of an Account
           </h2>
           <p>
@@ -488,7 +488,7 @@ export default function TermsContent() {
             4. Use of the Services
           </h2>
 
-          <h3 id="setting-rides" className="font-bold text-md my-2">
+          <h3 id="setting" className="font-bold text-md my-2">
             4.1. Setting Rides
           </h3>
           <p>
@@ -598,7 +598,7 @@ export default function TermsContent() {
             desk agent to do the search.
           </p>
 
-          <h2 id="carpooling-ride" className="font-bold text-lg my-2">
+          <h2 id="carpooling" className="font-bold text-lg my-2">
             4.2.1. Carpooling Ride
           </h2>
           <p>
@@ -639,7 +639,7 @@ export default function TermsContent() {
             Member.
           </p>
 
-          <h2 id="bus-ride" className="font-bold text-lg my-2">
+          <h2 id="bus" className="font-bold text-lg my-2">
             4.2.2. Bus Ride
           </h2>
           <p>
@@ -665,7 +665,7 @@ export default function TermsContent() {
             event of force majeure.
           </p>
 
-          <h2 id="third-party-booking" className="font-bold text-lg my-2">
+          <h2 id="terms" className="font-bold text-lg my-2">
             4.2.3. Terms of use of the Services on behalf of a third party
           </h2>
           <p>
@@ -705,11 +705,11 @@ export default function TermsContent() {
             other than you.
           </p>
 
-          <h2 id="review-system" className="font-bold text-lg my-2">
+          <h2 id="review" className="font-bold text-lg my-2">
             4.3. Review System
           </h2>
 
-          <h3 id="review-operation" className="font-bold text-md my-2">
+          <h3 id="operation" className="font-bold text-md my-2">
             4.3.1. Operation
           </h3>
           <p>
@@ -735,7 +735,7 @@ export default function TermsContent() {
             applicable, will be published on your profile.
           </p>
 
-          <h3 id="review-moderation" className="font-bold text-md my-2">
+          <h3 id="moderation" className="font-bold text-md my-2">
             4.3.2. Moderation
           </h3>
           <p>
@@ -744,7 +744,7 @@ export default function TermsContent() {
             response if it deems its content breaches these T&Cs.
           </p>
 
-          <h3 id="review-limit" className="font-bold text-md my-2">
+          <h3 id="limit" className="font-bold text-md my-2">
             4.3.3. Limit
           </h3>
           <p>
@@ -758,7 +758,7 @@ export default function TermsContent() {
         </div>
 
         <div>
-          <h1 id="financial-conditions" className="font-bold text-xl my-3">
+          <h1 id="financial" className="font-bold text-xl my-3">
             5. Financial Conditions
           </h1>
 
@@ -767,7 +767,7 @@ export default function TermsContent() {
             viewing, and posting Adverts, are free of charge.
           </p>
 
-          <h2 id="costs-incurred" className="font-bold text-lg my-2">
+          <h2 id="cost" className="font-bold text-lg my-2">
             5.1. Costs you incur while providing the Carpooling Rides
           </h2>
           <p>
@@ -784,7 +784,7 @@ export default function TermsContent() {
             capacity.
           </p>
 
-          <h2 id="cost-contribution" className="font-bold text-lg my-2">
+          <h2 id="contribution" className="font-bold text-lg my-2">
             5.2. Cost Contribution
           </h2>
           <p>
@@ -800,7 +800,7 @@ export default function TermsContent() {
             decrease the Service Fees.
           </p>
 
-          <h2 id="payment-options" className="font-bold text-lg my-2">
+          <h2 id="payment" className="font-bold text-lg my-2">
             5.3. Payment Options
           </h2>
           <p>
@@ -832,11 +832,11 @@ export default function TermsContent() {
             charge.
           </p>
 
-          <h2 id="cost-contribution-price" className="font-bold text-lg my-2">
+          <h2 id="price" className="font-bold text-lg my-2">
             5.4. Cost Contribution and Price
           </h2>
 
-          <h3 id="carpooling-ride" className="font-bold text-md my-2">
+          <h3 id="event" className="font-bold text-md my-2">
             5.4.1. In the event of Carpooling Ride
           </h3>
           <p>
@@ -861,7 +861,7 @@ export default function TermsContent() {
             Contribution.
           </p>
 
-          <h3 id="bus-ride" className="font-bold text-md my-2">
+          <h3 id="regarding" className="font-bold text-md my-2">
             5.4.2. Regarding the Bus Ride
           </h3>
           <p>
@@ -871,7 +871,7 @@ export default function TermsContent() {
             placement and payment modalities.
           </p>
 
-          <h2 id="service-fees" className="font-bold text-lg my-2">
+          <h2 id="service" className="font-bold text-lg my-2">
             5.5. Service Fees
           </h2>
           <p>
@@ -901,11 +901,11 @@ export default function TermsContent() {
             Cost Contribution.
           </p>
 
-          <h2 id="methods-of-payment" className="font-bold text-lg my-2">
+          <h2 id="method" className="font-bold text-lg my-2">
             5.7. Methods of Payment
           </h2>
 
-          <h3 id="in-app-payment-provider" className="font-bold text-md my-2">
+          <h3 id="provider" className="font-bold text-md my-2">
             5.7.1 In App Payment Service Provider
           </h3>
           <p>
@@ -942,7 +942,7 @@ export default function TermsContent() {
             these Terms and Privacy Policy.
           </p>
 
-          <h3 id="drivers-instruction" className="font-bold text-md my-2">
+          <h3 id="mandate" className="font-bold text-md my-2">
             5.7.2 Driver’s instruction (mandate)
           </h3>
           <p>
@@ -1000,7 +1000,7 @@ export default function TermsContent() {
             Driver shall be deemed to belong to Mizrmo.
           </p>
 
-          <h3 id="payment-price" className="font-bold text-md my-2">
+          <h3 id="paymentprice" className="font-bold text-md my-2">
             5.7.4 Payment of the Price
           </h3>
           <p>
@@ -1045,7 +1045,7 @@ export default function TermsContent() {
           </p>
         </div>
         <div>
-          <h1 id="non-commercial-purpose" className="font-bold text-xl my-3">
+          <h1 id="purpose" className="font-bold text-xl my-3">
             6. Non-commercial and non-business purpose of the Services and the
             Platform
           </h1>
@@ -1086,7 +1086,7 @@ export default function TermsContent() {
         </div>
 
         <div>
-          <h1 id="cancellation-policy" className="font-bold text-xl my-3">
+          <h1 id="policy" className="font-bold text-xl my-3">
             7. Cancellation policy
           </h1>
 
@@ -1153,7 +1153,7 @@ export default function TermsContent() {
             </li>
           </ul>
 
-          <h2 className="font-bold text-lg my-2">
+          <h2 id="cancellationrefund" className="font-bold text-lg my-2">
             7.1.2. Intracity Ride Cancellation and Refund Policy
           </h2>
           <p>
@@ -1205,7 +1205,7 @@ export default function TermsContent() {
             </li>
           </ul>
 
-          <h2 className="font-bold text-lg my-2">
+          <h2 id="exceptional" className="font-bold text-lg my-2">
             7.2. Exceptional Circumstances
           </h2>
           <p>
@@ -1215,7 +1215,7 @@ export default function TermsContent() {
             issued at the discretion of Mizrmo.
           </p>
 
-          <h2 className="font-bold text-lg my-2">
+          <h2 id="request" className="font-bold text-lg my-2">
             7.3. How to Request a Refund
           </h2>
           <ul>
@@ -1234,7 +1234,9 @@ export default function TermsContent() {
             </li>
           </ul>
 
-          <h2 className="font-bold text-lg my-2">7.4. Refund Disputes</h2>
+          <h2 id="disputes" className="font-bold text-lg my-2">
+            7.4. Refund Disputes
+          </h2>
           <p>
             Where there is a refund dispute, members are encouraged to provide
             evidence (e.g., screenshots or communication) in support of their
@@ -1278,7 +1280,9 @@ export default function TermsContent() {
             fare in a reasonable and justified manner.
           </p>
 
-          <h2 className="font-bold text-lg my-2">7.5. Right of withdrawal</h2>
+          <h2 id="withdrawl" className="font-bold text-lg my-2">
+            7.5. Right of withdrawal
+          </h2>
           <p>
             You have no right of withdrawal from the time of Booking
             Confirmation provided the Contract between you and Mizrmo consisting
@@ -1288,11 +1292,11 @@ export default function TermsContent() {
         </div>
 
         <div>
-          <h1 className="font-bold text-xl my-3">
+          <h1 id="member" className="font-bold text-xl my-3">
             8. Behaviour of Members of the Platform
           </h1>
 
-          <h2 className="font-bold text-xl my-3">
+          <h2 id="undertaking" className="font-bold text-xl my-3">
             8.1. Undertaking of all Members of the Platform
           </h2>
           <p>
@@ -1300,7 +1304,7 @@ export default function TermsContent() {
             regulations, and obligations applicable to your use of the Platform.
           </p>
 
-          <h3 className="font-bold text-xl my-3">
+          <h3 id="treat" className="font-bold text-xl my-3">
             8.1.1. Treat everyone with respect
           </h3>
           <p>
@@ -1324,7 +1328,9 @@ export default function TermsContent() {
             interfacing with others in the Community.
           </p>
 
-          <h3 className="font-bold text-xl my-3">8.1.2. Physical contact</h3>
+          <h3 id="physical" className="font-bold text-xl my-3">
+            8.1.2. Physical contact
+          </h3>
           <p>
             We all value our personal space and privacy. Do not touch strangers
             or anyone you just met while using the Platform. Limited exceptions
@@ -1333,7 +1339,7 @@ export default function TermsContent() {
             intending to hurt anyone is not allowed.
           </p>
 
-          <h3 className="font-bold text-xl my-3">
+          <h3 id="sexual" className="font-bold text-xl my-3">
             8.1.3. Sexual assault and misconduct
           </h3>
           <p>
@@ -1365,7 +1371,7 @@ export default function TermsContent() {
             </li>
           </ul>
 
-          <h3 className="font-bold text-xl my-3">
+          <h3 id="threat" className="font-bold text-xl my-3">
             8.1.4. Threatening and rude behaviour
           </h3>
           <p>
@@ -1376,7 +1382,9 @@ export default function TermsContent() {
             like religion and political beliefs.
           </p>
 
-          <h3 className="font-bold text-xl my-3">8.1.5. Post-Ride contact</h3>
+          <h3 id="postride" className="font-bold text-xl my-3">
+            8.1.5. Post-Ride contact
+          </h3>
           <p>
             Contact should end when the Ride is complete unless it is to return
             a lost item. Unwanted contact can be seen as harassment and
@@ -1385,7 +1393,9 @@ export default function TermsContent() {
             completed. Do not share any unnecessary contact information.
           </p>
 
-          <h3 className="font-bold text-xl my-3">8.1.6. Non-Discrimination</h3>
+          <h3 id="discrimination" className="font-bold text-xl my-3">
+            8.1.6. Non-Discrimination
+          </h3>
           <p>
             You should always feel safe and welcome. That is why we do not
             tolerate discriminatory conduct or behaviour, including toward the
@@ -1430,7 +1440,9 @@ export default function TermsContent() {
             wheelchairs).
           </p>
 
-          <h3 className="font-bold text-xl my-3">8.1.7. Property damage</h3>
+          <h3 id="property" className="font-bold text-xl my-3">
+            8.1.7. Property damage
+          </h3>
           <p>
             Damaging property is never allowed. Some examples include damaging
             the car or other mode of transportation requested through the
@@ -1493,7 +1505,7 @@ export default function TermsContent() {
             <li>to comply with these T&Cs and the Privacy Policy.</li>
           </ul>
 
-          <h2 className="font-bold text-xl my-3">
+          <h2 id="driverundertaking" className="font-bold text-xl my-3">
             8.2. Undertakings of the Drivers
           </h2>
           <p>
@@ -1574,11 +1586,13 @@ export default function TermsContent() {
             </li>
           </ul>
 
-          <h2 className="font-bold text-xl my-3">
+          <h2 id="riderundertaking" className="font-bold text-xl my-3">
             8.3. Undertakings of the Riders
           </h2>
 
-          <h3 className="font-bold text-xl my-3">8.3.1. For Carpooling Ride</h3>
+          <h3 id="forcarpooling" className="font-bold text-xl my-3">
+            8.3.1. For Carpooling Ride
+          </h3>
           <p>
             When you use the Platform as Rider of a Carpooling Ride, you
             undertake:
@@ -1626,13 +1640,17 @@ export default function TermsContent() {
             whose behalf you have booked a Seat under these T&Cs.
           </p>
 
-          <h3 className="font-bold text-xl my-3">8.3.2. For Bus Ride</h3>
+          <h3 id="forbus" className="font-bold text-xl my-3">
+            8.3.2. For Bus Ride
+          </h3>
           <p>
             In the context of Bus Ride, the Rider commits to comply with the
             GT&Cs of Sale of the relevant Bus Operator.
           </p>
 
-          <h2 className="font-bold text-xl my-3">8.4. Feedback Policy</h2>
+          <h2 id="feedback" className="font-bold text-xl my-3">
+            8.4. Feedback Policy
+          </h2>
           <p>
             As always, we love hearing from you. As Mizrmo respects your rights
             to your ideas, please do not submit any confidential ideas,
@@ -1663,7 +1681,7 @@ export default function TermsContent() {
         </div>
 
         <div>
-          <h1 className="font-bold text-xl my-3">
+          <h1 id="suspension" className="font-bold text-xl my-3">
             9. Suspension of Accounts, Limitation of Access and Termination
           </h1>
           <p>
@@ -1714,7 +1732,9 @@ export default function TermsContent() {
         </div>
 
         <div>
-          <h1 className="font-bold text-xl my-3">Personal Data</h1>
+          <h1 id="personaldata" className="font-bold text-xl my-3">
+            Personal Data
+          </h1>
           <p>
             In the context of your use of the Platform, Mizrmo will collect and
             process some of your personal data. In using the Platform and
@@ -1725,9 +1745,11 @@ export default function TermsContent() {
         </div>
 
         <div>
-          <h1 className="font-bold text-xl my-3">11. Intellectual Property</h1>
+          <h1 id="intellectualprop" className="font-bold text-xl my-3">
+            11. Intellectual Property
+          </h1>
 
-          <h2>11.1. Content Published by Mizrmo</h2>
+          <h2 id="contentpublished">11.1. Content Published by Mizrmo</h2>
           <p>
             Subject to the contents provided by its Members, Mizrmo is the sole
             holder of all intellectual property rights relating to the Service,
@@ -1765,7 +1787,7 @@ export default function TermsContent() {
             </li>
           </ul>
 
-          <h2 className="font-bold text-xl my-3">
+          <h2 id="contentposted" className="font-bold text-xl my-3">
             11.2. Content Posted by You on the Platform
           </h2>
           <p>
@@ -1806,7 +1828,9 @@ export default function TermsContent() {
         </div>
 
         <div>
-          <h1 className="font-bold text-xl my-3">Role of Mizrmo</h1>
+          <h1 id="role" className="font-bold text-xl my-3">
+            Role of Mizrmo
+          </h1>
 
           <p>
             The Platform constitutes an online mobility platform on which the
@@ -1874,7 +1898,7 @@ export default function TermsContent() {
         </div>
 
         <div>
-          <h1 className="font-bold text-xl my-3">
+          <h1 id="operation" className="font-bold text-xl my-3">
             Operation, availability, and functionalities of the Platform
           </h1>
 
@@ -1893,7 +1917,9 @@ export default function TermsContent() {
           </p>
         </div>
         <div>
-          <h1 className="font-bold text-xl my-3">Modification of the T&Cs</h1>
+          <h1 id="modification" className="font-bold text-xl my-3">
+            Modification of the T&Cs
+          </h1>
 
           <p>
             These T&Cs and the documents integrated by reference express the
@@ -1912,7 +1938,9 @@ export default function TermsContent() {
         </div>
 
         <div>
-          <h1 className="font-bold text-xl my-3">Applicable law – Dispute</h1>
+          <h1 id="applicable" className="font-bold text-xl my-3">
+            Applicable law – Dispute
+          </h1>
 
           <p>
             These T&Cs are written in English and the validity, construction,
@@ -1922,7 +1950,9 @@ export default function TermsContent() {
         </div>
 
         <div>
-          <h1 className="font-bold text-xl my-3">Legal notices</h1>
+          <h1 id="legal" className="font-bold text-xl my-3">
+            Legal notices
+          </h1>
 
           <p>
             The Platform is published by Mizrmo Technologies, limited company
