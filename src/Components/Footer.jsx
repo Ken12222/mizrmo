@@ -6,6 +6,8 @@ import lin from "../../images/lin.png";
 import snap from "../../images/snap.png";
 import tiktok from "../../images/tiktok.png";
 import x from "../../images/x.png";
+import Email from "./Email";
+import Phone from "./Phone";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -50,12 +52,8 @@ export default function Footer() {
         </div>
         <div className="flex flex-col gap-2 pt-0 pb-4 md:pt-8 lg:pt-8">
           <h1 className="text-white text-2xl">Contact Us</h1>
-          <a href="" className="text-white">
-            Email: info@mizrmo.com
-          </a>
-          <a href="" type="telephone" className="text-white">
-            Phone number: +233 24 741 0909
-          </a>
+          <Email />
+          <Phone />
           <div className="flex gap-4 pt-4">
             <Link
               target="blank"

@@ -5,6 +5,7 @@ import Home from "./Pages/Home";
 import PrivacyPolicy from "./Pages/PrivacyPPolicy";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Terms from "./Pages/TermsConditions";
+import ErrorPage from "./Pages/ErrorPage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/contact_us" exact element={<Contact_Us />} />
           <Route path="/privacy-policy" exact element={<PrivacyPolicy />} />
           <Route path="/termscondition" exact element={<Terms />} />
+          <Route path="/*" exact element={<ErrorPage />} />
         </Routes>
       </BrowserRouter>
     </>

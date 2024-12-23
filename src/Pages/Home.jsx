@@ -4,6 +4,7 @@ import Hero from "../Components/Hero";
 import Travel_smart from "../Components/Travel_smart";
 import Why_Us from "../Components/Why_Us";
 import Footer from "../Components/Footer";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -34,9 +35,14 @@ export default function Home() {
         <Travel_smart />
       </section>
       <div className="w-full flex justify-center pb-8">
-        <button className="btn sm:text-sm md:text-xl lg:text-xl hover:bg-blue-800 hover:text-yellow-400 text-blue-800 bg-yellow-400 py-2 md:col-span-2 lg:md:col-span-2 md:w-2/4 text-center rounded-full w-4/5 mx-auto">
-          Contact Us to Learn more about our corporate partnership
-        </button>
+        <Link
+          className="md:col-span-2 lg:md:col-span-2 md:w-2/4"
+          to="/contact_us"
+        >
+          <button className="btn sm:text-sm md:text-xl lg:text-xl hover:bg-blue-800 hover:text-yellow-400 text-blue-800 bg-yellow-400 py-2  text-center rounded-full w-4/5 mx-auto">
+            Contact us to learn more about our corporate partnership
+          </button>
+        </Link>
       </div>
       <Footer />
     </main>
