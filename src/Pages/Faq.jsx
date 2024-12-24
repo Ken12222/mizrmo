@@ -3,6 +3,7 @@ import Hero from "../Components/Hero";
 import { IoChevronDown, IoChevronUp } from "react-icons/io5";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
+import faq_img from "../../images/faq_img.jpg";
 
 export default function FAQ() {
   const [openAccordionID, setOpenAccordionID] = useState(null);
@@ -90,7 +91,7 @@ export default function FAQ() {
     <div>
       <div
         className="w-full mt-20 md:h-screen lg:h-screen flex align-middle bg-no-repeat bg-cover bg-center"
-        style={{ backgroundImage: `url("../../images/faq_img.jpg")` }}
+        style={{ backgroundImage: `url(${faq_img})` }}
       >
         <div className="w-full my-auto">
           <Hero
