@@ -34,12 +34,12 @@ export default function Home() {
       <section className="bg-gray-200 my-8">
         <Travel_smart />
       </section>
-      <div className="w-full flex justify-center pb-8">
+      <div className="pb-8">
         <Link
-          className="md:col-span-2 lg:md:col-span-2 md:w-2/4"
+          className="flex justify-center md:col-span-2 lg:md:col-span-2 md:w-2/4"
           to="/contact_us"
         >
-          <button className="btn sm:text-sm md:text-xl lg:text-xl hover:bg-blue-800 hover:text-yellow-400 text-blue-800 bg-yellow-400 py-2  text-center rounded-full w-4/5 mx-auto">
+          <button className="w-5/6 btn sm:text-sm md:text-xl lg:text-xl hover:bg-blue-800 hover:text-yellow-400 text-blue-800 bg-yellow-400 py-2  text-center rounded-full">
             Contact us to learn more about our corporate partnership
           </button>
         </Link>
