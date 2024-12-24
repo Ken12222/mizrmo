@@ -4,7 +4,7 @@ import mizrmologo from "../../images/mizrmo_logo.png";
 export default function Navbar() {
   return (
     <header className=" bg-blue-800 h-fit z-50 top-0 right-0 left-0 fixed py-2">
-      <div className="navbar w-5/6 flex gap-4 mx-auto">
+      <div className="navbar w-6/6 md:w-5/6 lg:w-5/6 flex gap-4 mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
             <div
@@ -50,7 +50,7 @@ export default function Navbar() {
           </div>
           <Link to="/" className="text-xl">
             <img
-              className="sm:w-40 md:w-20:"
+              className="sm:w-40 md:w-40"
               src={mizrmologo}
               alt="brand_logo"
             />
