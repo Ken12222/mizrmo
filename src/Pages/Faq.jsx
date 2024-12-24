@@ -90,7 +90,7 @@ export default function FAQ() {
     <div>
       <div
         className="w-full mt-20 md:h-screen lg:h-screen flex align-middle bg-no-repeat bg-cover bg-center"
-        style={{ backgroundImage: `url("../../images/faq_img.png")` }}
+        style={{ backgroundImage: `url("../../images/faq_img.jpg")` }}
       >
         <div className="w-full my-auto">
           <Hero
